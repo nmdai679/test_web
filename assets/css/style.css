@@ -1294,8 +1294,24 @@ select {
 }
 
 .timeline-card-poster {
+    position: relative;
     width: 60px;
+    aspect-ratio: 2/3;
     flex-shrink: 0;
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    background: var(--clr-surface-2);
+    border: 1px solid var(--clr-border);
+}
+
+.timeline-poster-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2; /* Explicitly on top of placeholder */
 }
 
 
@@ -1372,7 +1388,7 @@ select {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    z-index: 1;
+    z-index: 2; /* Explicitly on top of placeholder */
     transition: transform var(--dur-slow) var(--ease-out-expo);
 }
 
@@ -1565,25 +1581,18 @@ select {
 /* ─── 10. PLACEHOLDER POSTERS ──────────────────────────── */
 /* Used until real poster images are available */
 .poster-placeholder {
-    width: 100%;
-    height: 100%;
+    position: absolute;
+    inset: 0;
     background: var(--ph-color, #333);
     display: flex;
     align-items: flex-end;
     padding: 12px;
-    position: relative;
     overflow: hidden;
+    z-index: 0; /* Background layer */
 }
 
 .poster-placeholder::before {
-    content: attr(data-title);
-    font-family: var(--font-display);
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: rgba(255, 255, 255, 0.5);
-    line-height: 1.2;
-    position: relative;
-    z-index: 1;
+    display: none;
 }
 
 .poster-placeholder::after {

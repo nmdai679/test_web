@@ -1,5 +1,5 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
+defined('BASEPATH') or exit('No direct script access allowed');
 /**
  * application/views/main.php
  * ─────────────────────────────────────────────────────────────
@@ -24,6 +24,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
+    <script>
+        // Định nghĩa thư mục gốc cho JavaScript đọc
+        window.MCU_BASE_URL = "<?= base_url() ?>";
+        window.MCU_API = "<?= base_url('api') ?>";
+    </script>
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
     <link rel="stylesheet" href="<?= base_url('assets/css/style-part2.css') ?>" />
 </head>
@@ -68,18 +73,30 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     <h2 class="modal-title" id="modal-title">Iron Man</h2>
                     <p class="modal-tagline" id="modal-tagline"></p>
                     <div class="modal-stats-row">
-                        <div class="modal-stat"><span class="modal-stat-icon">⏱</span><div>
-                            <span class="modal-stat-val" id="modal-duration">—</span>
-                            <span class="modal-stat-lbl">Thời lượng</span></div></div>
-                        <div class="modal-stat"><span class="modal-stat-icon">📅</span><div>
-                            <span class="modal-stat-val" id="modal-year">—</span>
-                            <span class="modal-stat-lbl">Năm ra mắt</span></div></div>
-                        <div class="modal-stat"><span class="modal-stat-icon">🎬</span><div>
-                            <span class="modal-stat-val" id="modal-order">—</span>
-                            <span class="modal-stat-lbl">Thứ tự xem</span></div></div>
-                        <div class="modal-stat"><span class="modal-stat-icon">💰</span><div>
-                            <span class="modal-stat-val" id="modal-box-office">—</span>
-                            <span class="modal-stat-lbl">Doanh thu</span></div></div>
+                        <div class="modal-stat"><span class="modal-stat-icon">⏱</span>
+                            <div>
+                                <span class="modal-stat-val" id="modal-duration">—</span>
+                                <span class="modal-stat-lbl">Thời lượng</span>
+                            </div>
+                        </div>
+                        <div class="modal-stat"><span class="modal-stat-icon">📅</span>
+                            <div>
+                                <span class="modal-stat-val" id="modal-year">—</span>
+                                <span class="modal-stat-lbl">Năm ra mắt</span>
+                            </div>
+                        </div>
+                        <div class="modal-stat"><span class="modal-stat-icon">🎬</span>
+                            <div>
+                                <span class="modal-stat-val" id="modal-order">—</span>
+                                <span class="modal-stat-lbl">Thứ tự xem</span>
+                            </div>
+                        </div>
+                        <div class="modal-stat"><span class="modal-stat-icon">💰</span>
+                            <div>
+                                <span class="modal-stat-val" id="modal-box-office">—</span>
+                                <span class="modal-stat-lbl">Doanh thu</span>
+                            </div>
+                        </div>
                     </div>
                     <div class="modal-divider"></div>
                     <p class="modal-desc" id="modal-desc"></p>
@@ -99,7 +116,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                     </div>
                     <div class="modal-actions">
                         <a class="btn btn--primary modal-watch-btn" id="modal-watch-btn" href="#">
-                            <svg width="16" height="16" viewBox="0 0 16 16"><polygon points="3,2 13,8 3,14" fill="currentColor" /></svg>
+                            <svg width="16" height="16" viewBox="0 0 16 16">
+                                <polygon points="3,2 13,8 3,14" fill="currentColor" />
+                            </svg>
                             Xem trên Disney+
                         </a>
                         <button class="btn btn--ghost modal-trailer-btn" id="modal-trailer-btn">
@@ -127,10 +146,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <span class="logo-text">MCU<em>verse</em></span>
             </a>
             <ul class="nav-links">
-                <li><a href="#timeline"    class="nav-link">Lộ trình</a></li>
-                <li><a href="#movies"      class="nav-link">Phim</a></li>
-                <li><a href="#characters"  class="nav-link">Nhân vật</a></li>
-                <li><a href="#phases"      class="nav-link">Phases</a></li>
+                <li><a href="#timeline" class="nav-link">Lộ trình</a></li>
+                <li><a href="#movies" class="nav-link">Phim</a></li>
+                <li><a href="#characters" class="nav-link">Nhân vật</a></li>
+                <li><a href="#phases" class="nav-link">Phases</a></li>
             </ul>
             <a href="#movies" class="nav-cta">Bắt đầu xem</a>
         </div>
@@ -140,7 +159,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <section class="hero" id="hero">
         <canvas class="hero-stars" id="hero-stars"></canvas>
         <div class="hero-bg-layer hero-bg-nebula" data-parallax="0.15"></div>
-        <div class="hero-bg-layer hero-bg-glow"   data-parallax="0.25"></div>
+        <div class="hero-bg-layer hero-bg-glow" data-parallax="0.25"></div>
         <div class="hero-orb hero-orb--red"></div>
         <div class="hero-orb hero-orb--blue"></div>
         <div class="hero-inner">
@@ -173,14 +192,14 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="#movies" class="btn btn--ghost">Xem tất cả phim</a>
             </div>
             <div class="hero-stats">
-<?php
-$count_movies = 0;
-$count_series = 0;
-foreach($movies as $m) {
-    if ($m['type'] === 'series') $count_series++;
-    else $count_movies++;
-}
-?>
+                <?php
+                $count_movies = 0;
+                $count_series = 0;
+                foreach ($movies as $m) {
+                    if ($m['type'] === 'series') $count_series++;
+                    else $count_movies++;
+                }
+                ?>
                 <div class="hero-stat"><span class="hero-stat-num" data-count="<?= $count_movies ?>" id="stat-movies">0</span><span class="hero-stat-label">Bộ phim</span></div>
                 <div class="hero-stat-divider"></div>
                 <div class="hero-stat"><span class="hero-stat-num" data-count="<?= $count_series ?>" id="stat-series">0</span><span class="hero-stat-label">Series TV</span></div>
@@ -192,7 +211,9 @@ foreach($movies as $m) {
         </div>
         <div class="hero-scroll-indicator">
             <span class="scroll-text">Cuộn để khám phá</span>
-            <div class="scroll-line"><div class="scroll-dot"></div></div>
+            <div class="scroll-line">
+                <div class="scroll-dot"></div>
+            </div>
         </div>
     </section>
 
@@ -329,59 +350,64 @@ foreach($movies as $m) {
         </div>
 
         <div class="timeline-container" id="timeline-container">
-            <div class="timeline-spine"><div class="timeline-spine-fill" id="timeline-spine-fill"></div></div>
-
-<?php foreach ($phases as $p): ?>
-    <div class="timeline-phase <?= ($p['phase_num'] == 6) ? 'timeline-phase--upcoming' : '' ?>" data-phase="<?= $p['phase_num'] ?>">
-        <div class="timeline-phase-label">
-            <span class="phase-tag" <?= ($p['phase_num'] == 6) ? 'style="--phase-tag-clr: #00d4ff; --phase-tag-bg: rgba(0,212,255,0.08);"' : '' ?>>Phase 0<?= $p['phase_num'] ?></span>
-            <h3 class="phase-name"><?= htmlspecialchars($p['saga'] . ' — ' . $p['ten_phase']) ?></h3>
-            <span class="phase-years"><?= htmlspecialchars($p['years']) ?></span>
-        </div>
-
-        <?php 
-        foreach ($movies as $m): 
-            if ($m['phase_id'] == $p['id']): 
-                $isUpcoming = ($p['phase_num'] == 6) ? 'timeline-node--upcoming' : '';
-                $isUpcomingCard = ($p['phase_num'] == 6) ? 'timeline-card--upcoming' : '';
-                
-                $isFeatured = (strpos(strtolower($m['title']), 'avengers') !== false) || ($p['phase_num'] == 6);
-                $nodeClass = $isFeatured ? 'timeline-node--milestone' : $isUpcoming;
-                $cardClass = $isFeatured ? 'timeline-card--featured' : $isUpcomingCard;
-                $cardTypeClass = $isFeatured ? 'timeline-card-type--featured' : '';
-        ?>
-        <div class="timeline-item <?= $isFeatured ? 'timeline-item--milestone' : '' ?>" data-order="<?= $m['view_order'] ?>" data-type="<?= $m['type'] ?>" data-movie-id="<?= htmlspecialchars($m['slug']) ?>">
-            <div class="timeline-node <?= $nodeClass ?>">
-                <div class="timeline-node-inner"></div>
+            <div class="timeline-spine">
+                <div class="timeline-spine-fill" id="timeline-spine-fill"></div>
             </div>
-            <div class="timeline-card <?= $cardClass ?>" data-open-modal="<?= htmlspecialchars($m['slug']) ?>">
-                <div class="timeline-card-num"><?= sprintf('%02d', $m['view_order']) ?><?= ($p['phase_num'] == 6) ? '+' : '' ?></div>
-                <?php if($isFeatured): ?><div class="timeline-card-milestone-badge">⚡ Sự kiện lớn</div><?php endif; ?>
-                <div class="timeline-card-body">
-                    <span class="timeline-card-type <?= $cardTypeClass ?>"><?= ($p['phase_num'] == 6) ? 'Sắp ra mắt' : 'Phim điện ảnh' ?></span>
-                    <h4 class="timeline-card-title"><?= htmlspecialchars($m['title']) ?></h4>
-                    <p class="timeline-card-meta"><?= $m['year'] ?> · Phase <?= $p['phase_num'] ?> · <?= htmlspecialchars($m['duration']) ?></p>
-                    <p class="timeline-card-desc"><?= htmlspecialchars($m['description']) ?></p>
-                    <div class="timeline-card-tags">
-                        <?php 
-                        $tags = explode(',', $m['cast_list']);
-                        foreach (array_slice($tags, 0, 3) as $tag):
-                        ?>
-                        <span class="tl-tag"><?= htmlspecialchars(trim($tag)) ?></span>
-                        <?php endforeach; ?>
+
+            <?php foreach ($phases as $p): ?>
+                <div class="timeline-phase <?= ($p['phase_num'] == 6) ? 'timeline-phase--upcoming' : '' ?>" data-phase="<?= $p['phase_num'] ?>">
+                    <div class="timeline-phase-label">
+                        <span class="phase-tag" <?= ($p['phase_num'] == 6) ? 'style="--phase-tag-clr: #00d4ff; --phase-tag-bg: rgba(0,212,255,0.08);"' : '' ?>>Phase 0<?= $p['phase_num'] ?></span>
+                        <h3 class="phase-name"><?= htmlspecialchars($p['saga'] . ' — ' . $p['ten_phase']) ?></h3>
+                        <span class="phase-years"><?= htmlspecialchars($p['years']) ?></span>
                     </div>
+
+                    <?php
+                    foreach ($movies as $m):
+                        if ($m['phase_id'] == $p['id']):
+                            $isUpcoming = ($p['phase_num'] == 6) ? 'timeline-node--upcoming' : '';
+                            $isUpcomingCard = ($p['phase_num'] == 6) ? 'timeline-card--upcoming' : '';
+
+                            $isFeatured = (strpos(strtolower($m['title']), 'avengers') !== false) || ($p['phase_num'] == 6);
+                            $nodeClass = $isFeatured ? 'timeline-node--milestone' : $isUpcoming;
+                            $cardClass = $isFeatured ? 'timeline-card--featured' : $isUpcomingCard;
+                            $cardTypeClass = $isFeatured ? 'timeline-card-type--featured' : '';
+                    ?>
+                            <div class="timeline-item <?= $isFeatured ? 'timeline-item--milestone' : '' ?>" data-order="<?= $m['view_order'] ?>" data-type="<?= $m['type'] ?>" data-movie-id="<?= htmlspecialchars($m['slug']) ?>">
+                                <div class="timeline-node <?= $nodeClass ?>">
+                                    <div class="timeline-node-inner"></div>
+                                </div>
+                                <div class="timeline-card <?= $cardClass ?>" data-open-modal="<?= htmlspecialchars($m['slug']) ?>">
+                                    <div class="timeline-card-num"><?= sprintf('%02d', $m['view_order']) ?><?= ($p['phase_num'] == 6) ? '+' : '' ?></div>
+                                    <?php if ($isFeatured): ?><div class="timeline-card-milestone-badge">⚡ Sự kiện lớn</div><?php endif; ?>
+                                    <div class="timeline-card-body">
+                                        <span class="timeline-card-type <?= $cardTypeClass ?>"><?= ($p['phase_num'] == 6) ? 'Sắp ra mắt' : 'Phim điện ảnh' ?></span>
+                                        <h4 class="timeline-card-title"><?= htmlspecialchars($m['title']) ?></h4>
+                                        <p class="timeline-card-meta"><?= $m['year'] ?> · Phase <?= $p['phase_num'] ?> · <?= htmlspecialchars($m['duration']) ?></p>
+                                        <p class="timeline-card-desc"><?= htmlspecialchars($m['description']) ?></p>
+                                        <div class="timeline-card-tags">
+                                            <?php
+                                            $tags = explode(',', $m['cast_list']);
+                                            foreach (array_slice($tags, 0, 3) as $tag):
+                                            ?>
+                                                <span class="tl-tag"><?= htmlspecialchars(trim($tag)) ?></span>
+                                            <?php endforeach; ?>
+                                        </div>
+                                    </div>
+                                    <div class="timeline-card-poster">
+                                        <div class="poster-placeholder" style="--ph-color:<?= $m['bg_color'] ?>;"></div>
+                                        <?php if (!empty($m['poster_url'])): ?>
+                                            <img src="<?= base_url($m['poster_url']) ?>" alt="<?= htmlspecialchars($m['title']) ?>" class="timeline-poster-img" loading="lazy">
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            </div>
+                    <?php
+                        endif;
+                    endforeach;
+                    ?>
                 </div>
-                <div class="timeline-card-poster">
-                    <div class="poster-placeholder" data-title="<?= htmlspecialchars($m['title']) ?>" style="--ph-color:<?= $m['bg_color'] ?>;"></div>
-                </div>
-            </div>
-        </div>
-        <?php 
-            endif;
-        endforeach; 
-        ?>
-    </div>
-<?php endforeach; ?>
+            <?php endforeach; ?>
 
         </div>
     </section>
@@ -431,13 +457,23 @@ foreach($movies as $m) {
             <div class="filter-divider"></div>
             <div class="filter-type-group" role="group">
                 <button class="filter-chip filter-chip--active" data-filter="type" data-value="all">
-                    <svg width="12" height="12" viewBox="0 0 12 12"><rect width="12" height="12" rx="2" fill="currentColor" opacity="0.7" /></svg>Tất cả
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                        <rect width="12" height="12" rx="2" fill="currentColor" opacity="0.7" />
+                    </svg>Tất cả
                 </button>
                 <button class="filter-chip" data-filter="type" data-value="movie">
-                    <svg width="12" height="12" viewBox="0 0 12 12"><rect x="1" y="2" width="10" height="8" rx="1.5" stroke="currentColor" stroke-width="1.2" fill="none" /><line x1="4" y1="2" x2="4" y2="10" stroke="currentColor" stroke-width="1" /><line x1="8" y1="2" x2="8" y2="10" stroke="currentColor" stroke-width="1" /></svg>Phim
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                        <rect x="1" y="2" width="10" height="8" rx="1.5" stroke="currentColor" stroke-width="1.2" fill="none" />
+                        <line x1="4" y1="2" x2="4" y2="10" stroke="currentColor" stroke-width="1" />
+                        <line x1="8" y1="2" x2="8" y2="10" stroke="currentColor" stroke-width="1" />
+                    </svg>Phim
                 </button>
                 <button class="filter-chip" data-filter="type" data-value="series">
-                    <svg width="12" height="12" viewBox="0 0 12 12"><rect x="1" y="1" width="10" height="7" rx="1" stroke="currentColor" stroke-width="1.2" fill="none" /><line x1="4" y1="11" x2="8" y2="11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" /><line x1="6" y1="8" x2="6" y2="11" stroke="currentColor" stroke-width="1.2" /></svg>Series
+                    <svg width="12" height="12" viewBox="0 0 12 12">
+                        <rect x="1" y="1" width="10" height="7" rx="1" stroke="currentColor" stroke-width="1.2" fill="none" />
+                        <line x1="4" y1="11" x2="8" y2="11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" />
+                        <line x1="6" y1="8" x2="6" y2="11" stroke="currentColor" stroke-width="1.2" />
+                    </svg>Series
                 </button>
             </div>
             <div class="filter-sort">
@@ -483,10 +519,10 @@ foreach($movies as $m) {
                 <span class="logo-text">MCU<em>verse</em></span>
             </div>
             <div class="footer-links">
-                <a href="#timeline"   class="footer-link">Lộ trình</a>
-                <a href="#movies"     class="footer-link">Phim</a>
+                <a href="#timeline" class="footer-link">Lộ trình</a>
+                <a href="#movies" class="footer-link">Phim</a>
                 <a href="#characters" class="footer-link">Nhân vật</a>
-                <a href="#phases"     class="footer-link">Phases</a>
+                <a href="#phases" class="footer-link">Phases</a>
             </div>
             <p class="footer-copy">Dữ liệu tổng hợp từ Marvel Studios &amp; IMDb. Không phải trang chính thức.</p>
         </div>
@@ -495,10 +531,11 @@ foreach($movies as $m) {
     <!-- Truyền base_url vào JS qua biến global -->
     <script>
         window.MCU_BASE_URL = '<?= base_url() ?>';
-        window.MCU_API      = '<?= site_url('api') ?>';
+        window.MCU_API = '<?= site_url('api') ?>';
     </script>
     <script src="<?= base_url('assets/js/script.js') ?>"></script>
     <script src="<?= base_url('assets/js/script-part2.js') ?>"></script>
 
 </body>
+
 </html>

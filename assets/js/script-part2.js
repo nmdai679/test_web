@@ -40,34 +40,36 @@
             }
 
             const moviesJson = await moviesRes.json();
-            const charsJson  = await charsRes.json();
+            const charsJson = await charsRes.json();
 
             const movies = moviesJson.data || [];
-            const chars  = charsJson.data  || [];
+            const chars = charsJson.data || [];
 
             // Render UI
             renderMoviesGrid(movies);
             renderCharactersGrid(chars);
 
+            initInfinityTracker();
+
             // Build MOVIE_DB (slug → object) cho modal system
             movies.forEach(m => {
                 MOVIE_DB[m.slug] = {
-                    title:      m.title,
-                    year:       m.year,
-                    phase:      m.phase_num,
-                    type:       m.type === 'series' ? 'Disney+ Series' : 'Phim điện ảnh',
-                    duration:   m.duration,
-                    rating:     parseFloat(m.rating),
-                    order:      String(m.view_order).padStart(2, '0'),
-                    boxOffice:  m.box_office,
-                    director:   m.director,
-                    cast:       m.cast_list,
-                    tagline:    m.tagline,
-                    desc:       m.description,
-                    bgColor:    m.bg_color,
-                    posterUrl:  m.poster_url,
+                    title: m.title,
+                    year: m.year,
+                    phase: m.phase_num,
+                    type: m.type === 'series' ? 'Disney+ Series' : 'Phim điện ảnh',
+                    duration: m.duration,
+                    rating: parseFloat(m.rating),
+                    order: String(m.view_order).padStart(2, '0'),
+                    boxOffice: m.box_office,
+                    director: m.director,
+                    cast: m.cast_list,
+                    tagline: m.tagline,
+                    desc: m.description,
+                    bgColor: m.bg_color,
+                    posterUrl: m.poster_url,
                     connections: [],   // có thể mở rộng sau
-                    watchUrl:   'https://disneyplus.com',
+                    watchUrl: 'https://disneyplus.com',
                     trailerUrl: 'https://youtube.com',
                 };
             });
@@ -107,9 +109,9 @@
         }
 
         grid.innerHTML = movies.map(m => {
-            const isEndgame  = m.slug === 'avengers-endgame';
+            const isEndgame = m.slug === 'avengers-endgame';
             const isFeatured = m.rating >= 8.2 && !isEndgame;
-            const typeBadge  = m.type === 'series'
+            const typeBadge = m.type === 'series'
                 ? `<span class="movie-card-type-badge movie-card-type-badge--series">Series</span>`
                 : `<span class="movie-card-type-badge">Phim</span>`;
             const ratingBarStyle = isEndgame
@@ -119,8 +121,8 @@
             const featuredBadge = isEndgame
                 ? `<div class="movie-card-featured-badge" style="background:var(--clr-gold);color:#000;">Huyền thoại</div>`
                 : isFeatured
-                ? `<div class="movie-card-featured-badge">Đỉnh cao</div>`
-                : '';
+                    ? `<div class="movie-card-featured-badge">Đỉnh cao</div>`
+                    : '';
             const glowStyle = isEndgame ? 'style="box-shadow:0 0 40px rgba(245,200,66,0.2)"' : '';
 
             return `
@@ -199,9 +201,9 @@
        2c. Update hero stat counters after data loads
     ───────────────────────────────────────────────── */
     function updateStatCounters(movieCount, seriesCount) {
-        const statMovies  = document.getElementById('stat-movies');
-        const statSeries  = document.getElementById('stat-series');
-        if (statMovies) { statMovies.dataset.count = movieCount;  statMovies.textContent = movieCount; }
+        const statMovies = document.getElementById('stat-movies');
+        const statSeries = document.getElementById('stat-series');
+        if (statMovies) { statMovies.dataset.count = movieCount; statMovies.textContent = movieCount; }
         if (statSeries) { statSeries.dataset.count = seriesCount; statSeries.textContent = seriesCount; }
     }
 
@@ -255,7 +257,7 @@
         // Poster placeholder
         const posterEl = document.getElementById('modal-poster');
         posterEl.innerHTML = `
-            <div class="poster-placeholder" data-title="${data.title}" style="--ph-color: ${data.bgColor}; width:100%; height:100%;"></div>
+            <div class="poster-placeholder" style="--ph-color: ${data.bgColor}; width:100%; height:100%;"></div>
             ${data.posterUrl ? `<img src="${window.MCU_BASE_URL}${data.posterUrl}" alt="${data.title}" class="modal-poster-img">` : ''}
         `;
 
