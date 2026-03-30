@@ -29,8 +29,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
         window.MCU_BASE_URL = "<?= base_url() ?>";
         window.MCU_API = "<?= base_url('api') ?>";
     </script>
-    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
-    <link rel="stylesheet" href="<?= base_url('assets/css/style-part2.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css?v=1.1') ?>" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/style-part2.css?v=1.1') ?>" />
 </head>
 
 <body>
@@ -392,6 +392,41 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                             ?>
                                                 <span class="tl-tag"><?= htmlspecialchars(trim($tag)) ?></span>
                                             <?php endforeach; ?>
+
+                                            <?php
+                                            // Easter egg: Gán Infinity Stones dựa trên danh sách chuẩn của Marvel
+                                            $slug = $m['slug'];
+                                            $gem_stones = [];
+
+                                            // 1. Space Stone
+                                            if (in_array($slug, ['captain-america', 'thor', 'the-avengers', 'thor-dark-world', 'thor-ragnarok', 'captain-marvel', 'avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Space Stone';
+                                            }
+                                            // 2. Mind Stone
+                                            if (in_array($slug, ['the-avengers', 'captain-america-winter-soldier', 'avengers-age-of-ultron', 'captain-america-civil-war', 'avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Mind Stone';
+                                            }
+                                            // 3. Reality Stone
+                                            if (in_array($slug, ['thor-dark-world', 'avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Reality Stone';
+                                            }
+                                            // 4. Power Stone
+                                            if (in_array($slug, ['guardians-of-the-galaxy', 'avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Power Stone';
+                                            }
+                                            // 5. Time Stone
+                                            if (in_array($slug, ['doctor-strange', 'thor-ragnarok', 'avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Time Stone';
+                                            }
+                                            // 6. Soul Stone
+                                            if (in_array($slug, ['avengers-infinity-war', 'avengers-endgame'])) {
+                                                $gem_stones[] = 'Soul Stone';
+                                            }
+
+                                            foreach (array_unique($gem_stones) as $stone) {
+                                                echo '<span class="tl-tag tl-tag--gem">' . $stone . '</span>';
+                                            }
+                                            ?>
                                         </div>
                                     </div>
                                     <div class="timeline-card-poster">
@@ -533,8 +568,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
         window.MCU_BASE_URL = '<?= base_url() ?>';
         window.MCU_API = '<?= site_url('api') ?>';
     </script>
-    <script src="<?= base_url('assets/js/script.js') ?>"></script>
-    <script src="<?= base_url('assets/js/script-part2.js') ?>"></script>
+    <script src="<?= base_url('assets/js/script.js?v=1.1') ?>"></script>
+    <script src="<?= base_url('assets/js/script-part2.js?v=1.1') ?>"></script>
 
 </body>
 

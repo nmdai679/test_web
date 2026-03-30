@@ -1627,3 +1627,675 @@ DEBUG - 2026-03-30 14:42:25 --> Total execution time: 0.0499
 INFO - 2026-03-30 14:42:25 --> Model "Mcu_model" initialized
 INFO - 2026-03-30 14:42:25 --> Final output sent to browser
 DEBUG - 2026-03-30 14:42:25 --> Total execution time: 0.0696
+INFO - 2026-03-30 14:43:09 --> Config Class Initialized
+INFO - 2026-03-30 14:43:09 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:43:09 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:43:09 --> URI Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:43:09 --> Router Class Initialized
+INFO - 2026-03-30 14:43:09 --> Output Class Initialized
+INFO - 2026-03-30 14:43:09 --> Security Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:43:09 --> Input Class Initialized
+INFO - 2026-03-30 14:43:09 --> Language Class Initialized
+INFO - 2026-03-30 14:43:09 --> Loader Class Initialized
+INFO - 2026-03-30 14:43:09 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:43:09 --> Controller Class Initialized
+INFO - 2026-03-30 14:43:09 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:43:09 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:43:09 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:43:09 --> Final output sent to browser
+DEBUG - 2026-03-30 14:43:09 --> Total execution time: 0.0594
+INFO - 2026-03-30 14:43:09 --> Config Class Initialized
+INFO - 2026-03-30 14:43:09 --> Hooks Class Initialized
+INFO - 2026-03-30 14:43:09 --> Config Class Initialized
+INFO - 2026-03-30 14:43:09 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:43:09 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:43:09 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:43:09 --> URI Class Initialized
+INFO - 2026-03-30 14:43:09 --> URI Class Initialized
+INFO - 2026-03-30 14:43:09 --> Router Class Initialized
+INFO - 2026-03-30 14:43:09 --> Router Class Initialized
+INFO - 2026-03-30 14:43:09 --> Output Class Initialized
+INFO - 2026-03-30 14:43:09 --> Output Class Initialized
+INFO - 2026-03-30 14:43:09 --> Security Class Initialized
+INFO - 2026-03-30 14:43:09 --> Security Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:43:09 --> Input Class Initialized
+DEBUG - 2026-03-30 14:43:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:43:09 --> Input Class Initialized
+INFO - 2026-03-30 14:43:09 --> Language Class Initialized
+INFO - 2026-03-30 14:43:09 --> Language Class Initialized
+INFO - 2026-03-30 14:43:09 --> Loader Class Initialized
+INFO - 2026-03-30 14:43:09 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:43:09 --> Controller Class Initialized
+INFO - 2026-03-30 14:43:09 --> Loader Class Initialized
+INFO - 2026-03-30 14:43:09 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:43:09 --> Controller Class Initialized
+INFO - 2026-03-30 14:43:09 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:43:09 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:43:09 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:43:09 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:43:09 --> Final output sent to browser
+INFO - 2026-03-30 14:43:09 --> Final output sent to browser
+DEBUG - 2026-03-30 14:43:09 --> Total execution time: 0.0482
+DEBUG - 2026-03-30 14:43:09 --> Total execution time: 0.0486
+INFO - 2026-03-30 14:44:16 --> Config Class Initialized
+INFO - 2026-03-30 14:44:16 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:16 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:16 --> URI Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:44:16 --> Router Class Initialized
+INFO - 2026-03-30 14:44:16 --> Output Class Initialized
+INFO - 2026-03-30 14:44:16 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:16 --> Input Class Initialized
+INFO - 2026-03-30 14:44:16 --> Language Class Initialized
+INFO - 2026-03-30 14:44:16 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:16 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:16 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:16 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:16 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:16 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:44:16 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:16 --> Total execution time: 0.0393
+INFO - 2026-03-30 14:44:16 --> Config Class Initialized
+INFO - 2026-03-30 14:44:16 --> Hooks Class Initialized
+INFO - 2026-03-30 14:44:16 --> Config Class Initialized
+INFO - 2026-03-30 14:44:16 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:16 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:16 --> URI Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:16 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:16 --> Router Class Initialized
+INFO - 2026-03-30 14:44:16 --> URI Class Initialized
+INFO - 2026-03-30 14:44:16 --> Output Class Initialized
+INFO - 2026-03-30 14:44:16 --> Router Class Initialized
+INFO - 2026-03-30 14:44:16 --> Security Class Initialized
+INFO - 2026-03-30 14:44:16 --> Output Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:16 --> Input Class Initialized
+INFO - 2026-03-30 14:44:16 --> Security Class Initialized
+INFO - 2026-03-30 14:44:16 --> Language Class Initialized
+DEBUG - 2026-03-30 14:44:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:16 --> Input Class Initialized
+INFO - 2026-03-30 14:44:16 --> Language Class Initialized
+INFO - 2026-03-30 14:44:16 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:16 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:16 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:16 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:16 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:16 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:16 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:16 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:16 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:16 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:16 --> Total execution time: 0.0419
+INFO - 2026-03-30 14:44:16 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:16 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:16 --> Total execution time: 0.0689
+INFO - 2026-03-30 14:44:17 --> Config Class Initialized
+INFO - 2026-03-30 14:44:17 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:17 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:17 --> URI Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:44:17 --> Router Class Initialized
+INFO - 2026-03-30 14:44:17 --> Output Class Initialized
+INFO - 2026-03-30 14:44:17 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:17 --> Input Class Initialized
+INFO - 2026-03-30 14:44:17 --> Language Class Initialized
+INFO - 2026-03-30 14:44:17 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:17 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:17 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:17 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:17 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:17 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:44:17 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:17 --> Total execution time: 0.0391
+INFO - 2026-03-30 14:44:17 --> Config Class Initialized
+INFO - 2026-03-30 14:44:17 --> Hooks Class Initialized
+INFO - 2026-03-30 14:44:17 --> Config Class Initialized
+INFO - 2026-03-30 14:44:17 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:17 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:17 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:17 --> URI Class Initialized
+INFO - 2026-03-30 14:44:17 --> URI Class Initialized
+INFO - 2026-03-30 14:44:17 --> Router Class Initialized
+INFO - 2026-03-30 14:44:17 --> Router Class Initialized
+INFO - 2026-03-30 14:44:17 --> Output Class Initialized
+INFO - 2026-03-30 14:44:17 --> Output Class Initialized
+INFO - 2026-03-30 14:44:17 --> Security Class Initialized
+INFO - 2026-03-30 14:44:17 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:17 --> Input Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:17 --> Input Class Initialized
+INFO - 2026-03-30 14:44:17 --> Language Class Initialized
+INFO - 2026-03-30 14:44:17 --> Language Class Initialized
+INFO - 2026-03-30 14:44:17 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:17 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:17 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:17 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:17 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:17 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:17 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:17 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:17 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:17 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:17 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:17 --> Total execution time: 0.0457
+INFO - 2026-03-30 14:44:17 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:17 --> Total execution time: 0.0483
+INFO - 2026-03-30 14:44:17 --> Config Class Initialized
+INFO - 2026-03-30 14:44:17 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:17 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:17 --> URI Class Initialized
+DEBUG - 2026-03-30 14:44:17 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:44:17 --> Router Class Initialized
+INFO - 2026-03-30 14:44:18 --> Output Class Initialized
+INFO - 2026-03-30 14:44:18 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:18 --> Input Class Initialized
+INFO - 2026-03-30 14:44:18 --> Language Class Initialized
+INFO - 2026-03-30 14:44:18 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:18 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:18 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:18 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:18 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:18 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:44:18 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:18 --> Total execution time: 0.0593
+INFO - 2026-03-30 14:44:18 --> Config Class Initialized
+INFO - 2026-03-30 14:44:18 --> Config Class Initialized
+INFO - 2026-03-30 14:44:18 --> Hooks Class Initialized
+INFO - 2026-03-30 14:44:18 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:18 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:18 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:44:18 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:18 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:18 --> URI Class Initialized
+INFO - 2026-03-30 14:44:18 --> URI Class Initialized
+INFO - 2026-03-30 14:44:18 --> Router Class Initialized
+INFO - 2026-03-30 14:44:18 --> Router Class Initialized
+INFO - 2026-03-30 14:44:18 --> Output Class Initialized
+INFO - 2026-03-30 14:44:18 --> Output Class Initialized
+INFO - 2026-03-30 14:44:18 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:18 --> Input Class Initialized
+INFO - 2026-03-30 14:44:18 --> Security Class Initialized
+INFO - 2026-03-30 14:44:18 --> Language Class Initialized
+DEBUG - 2026-03-30 14:44:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:18 --> Input Class Initialized
+INFO - 2026-03-30 14:44:18 --> Language Class Initialized
+INFO - 2026-03-30 14:44:18 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:18 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:18 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:18 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:18 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:18 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:18 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:18 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:18 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:18 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:18 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:18 --> Total execution time: 0.0477
+INFO - 2026-03-30 14:44:18 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:18 --> Total execution time: 0.0509
+INFO - 2026-03-30 14:44:37 --> Config Class Initialized
+INFO - 2026-03-30 14:44:37 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:37 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:37 --> URI Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:44:37 --> Router Class Initialized
+INFO - 2026-03-30 14:44:37 --> Output Class Initialized
+INFO - 2026-03-30 14:44:37 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:37 --> Input Class Initialized
+INFO - 2026-03-30 14:44:37 --> Language Class Initialized
+INFO - 2026-03-30 14:44:37 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:37 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:37 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:37 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:37 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:37 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:44:37 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:37 --> Total execution time: 0.0514
+INFO - 2026-03-30 14:44:37 --> Config Class Initialized
+INFO - 2026-03-30 14:44:37 --> Hooks Class Initialized
+INFO - 2026-03-30 14:44:37 --> Config Class Initialized
+INFO - 2026-03-30 14:44:37 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:37 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:44:37 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:44:37 --> URI Class Initialized
+INFO - 2026-03-30 14:44:37 --> URI Class Initialized
+INFO - 2026-03-30 14:44:37 --> Router Class Initialized
+INFO - 2026-03-30 14:44:37 --> Router Class Initialized
+INFO - 2026-03-30 14:44:37 --> Output Class Initialized
+INFO - 2026-03-30 14:44:37 --> Output Class Initialized
+INFO - 2026-03-30 14:44:37 --> Security Class Initialized
+INFO - 2026-03-30 14:44:37 --> Security Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:37 --> Input Class Initialized
+DEBUG - 2026-03-30 14:44:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:44:37 --> Language Class Initialized
+INFO - 2026-03-30 14:44:37 --> Input Class Initialized
+INFO - 2026-03-30 14:44:37 --> Language Class Initialized
+INFO - 2026-03-30 14:44:37 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:37 --> Loader Class Initialized
+INFO - 2026-03-30 14:44:37 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:37 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:37 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:44:37 --> Controller Class Initialized
+INFO - 2026-03-30 14:44:37 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:37 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:44:37 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:37 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:44:37 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:37 --> Total execution time: 0.0408
+INFO - 2026-03-30 14:44:37 --> Final output sent to browser
+DEBUG - 2026-03-30 14:44:37 --> Total execution time: 0.0419
+INFO - 2026-03-30 14:46:35 --> Config Class Initialized
+INFO - 2026-03-30 14:46:35 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:46:35 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:46:35 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:46:35 --> URI Class Initialized
+DEBUG - 2026-03-30 14:46:35 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:46:35 --> Router Class Initialized
+INFO - 2026-03-30 14:46:35 --> Output Class Initialized
+INFO - 2026-03-30 14:46:35 --> Security Class Initialized
+DEBUG - 2026-03-30 14:46:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:46:35 --> Input Class Initialized
+INFO - 2026-03-30 14:46:35 --> Language Class Initialized
+INFO - 2026-03-30 14:46:35 --> Loader Class Initialized
+INFO - 2026-03-30 14:46:35 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:46:35 --> Controller Class Initialized
+INFO - 2026-03-30 14:46:35 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:46:35 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:46:35 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:46:35 --> Final output sent to browser
+DEBUG - 2026-03-30 14:46:35 --> Total execution time: 0.0479
+INFO - 2026-03-30 14:46:35 --> Config Class Initialized
+INFO - 2026-03-30 14:46:35 --> Config Class Initialized
+INFO - 2026-03-30 14:46:35 --> Hooks Class Initialized
+INFO - 2026-03-30 14:46:35 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:46:35 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:46:35 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:46:35 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:46:35 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:46:35 --> URI Class Initialized
+INFO - 2026-03-30 14:46:35 --> URI Class Initialized
+INFO - 2026-03-30 14:46:35 --> Router Class Initialized
+INFO - 2026-03-30 14:46:35 --> Router Class Initialized
+INFO - 2026-03-30 14:46:35 --> Output Class Initialized
+INFO - 2026-03-30 14:46:36 --> Output Class Initialized
+INFO - 2026-03-30 14:46:36 --> Security Class Initialized
+INFO - 2026-03-30 14:46:36 --> Security Class Initialized
+DEBUG - 2026-03-30 14:46:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:46:36 --> Input Class Initialized
+DEBUG - 2026-03-30 14:46:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:46:36 --> Input Class Initialized
+INFO - 2026-03-30 14:46:36 --> Language Class Initialized
+INFO - 2026-03-30 14:46:36 --> Language Class Initialized
+INFO - 2026-03-30 14:46:36 --> Loader Class Initialized
+INFO - 2026-03-30 14:46:36 --> Loader Class Initialized
+INFO - 2026-03-30 14:46:36 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:46:36 --> Controller Class Initialized
+INFO - 2026-03-30 14:46:36 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:46:36 --> Controller Class Initialized
+INFO - 2026-03-30 14:46:36 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:46:36 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:46:36 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:46:36 --> Final output sent to browser
+DEBUG - 2026-03-30 14:46:36 --> Total execution time: 0.0418
+INFO - 2026-03-30 14:46:36 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:46:36 --> Final output sent to browser
+DEBUG - 2026-03-30 14:46:36 --> Total execution time: 0.0542
+INFO - 2026-03-30 14:48:36 --> Config Class Initialized
+INFO - 2026-03-30 14:48:36 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:36 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:48:36 --> URI Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:48:36 --> Router Class Initialized
+INFO - 2026-03-30 14:48:36 --> Output Class Initialized
+INFO - 2026-03-30 14:48:36 --> Security Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:36 --> Input Class Initialized
+INFO - 2026-03-30 14:48:36 --> Language Class Initialized
+INFO - 2026-03-30 14:48:36 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:36 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:36 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:36 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:36 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:48:36 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:48:36 --> Final output sent to browser
+DEBUG - 2026-03-30 14:48:36 --> Total execution time: 0.0394
+INFO - 2026-03-30 14:48:36 --> Config Class Initialized
+INFO - 2026-03-30 14:48:36 --> Hooks Class Initialized
+INFO - 2026-03-30 14:48:36 --> Config Class Initialized
+INFO - 2026-03-30 14:48:36 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:36 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:36 --> URI Class Initialized
+INFO - 2026-03-30 14:48:36 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:48:36 --> URI Class Initialized
+INFO - 2026-03-30 14:48:36 --> Router Class Initialized
+INFO - 2026-03-30 14:48:36 --> Router Class Initialized
+INFO - 2026-03-30 14:48:36 --> Output Class Initialized
+INFO - 2026-03-30 14:48:36 --> Security Class Initialized
+INFO - 2026-03-30 14:48:36 --> Output Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:36 --> Security Class Initialized
+INFO - 2026-03-30 14:48:36 --> Input Class Initialized
+INFO - 2026-03-30 14:48:36 --> Language Class Initialized
+DEBUG - 2026-03-30 14:48:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:36 --> Input Class Initialized
+INFO - 2026-03-30 14:48:36 --> Language Class Initialized
+INFO - 2026-03-30 14:48:36 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:36 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:36 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:36 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:36 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:36 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:36 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:36 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:48:36 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:36 --> Final output sent to browser
+INFO - 2026-03-30 14:48:36 --> Model "Mcu_model" initialized
+DEBUG - 2026-03-30 14:48:36 --> Total execution time: 0.0428
+INFO - 2026-03-30 14:48:36 --> Final output sent to browser
+DEBUG - 2026-03-30 14:48:36 --> Total execution time: 0.0464
+INFO - 2026-03-30 14:48:49 --> Config Class Initialized
+INFO - 2026-03-30 14:48:49 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:49 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:48:49 --> URI Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:48:49 --> Router Class Initialized
+INFO - 2026-03-30 14:48:49 --> Output Class Initialized
+INFO - 2026-03-30 14:48:49 --> Security Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:49 --> Input Class Initialized
+INFO - 2026-03-30 14:48:49 --> Language Class Initialized
+INFO - 2026-03-30 14:48:49 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:49 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:49 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:49 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:49 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:48:49 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:48:49 --> Final output sent to browser
+DEBUG - 2026-03-30 14:48:49 --> Total execution time: 0.0370
+INFO - 2026-03-30 14:48:49 --> Config Class Initialized
+INFO - 2026-03-30 14:48:49 --> Hooks Class Initialized
+INFO - 2026-03-30 14:48:49 --> Config Class Initialized
+INFO - 2026-03-30 14:48:49 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:49 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:48:49 --> URI Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:48:49 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:48:49 --> Router Class Initialized
+INFO - 2026-03-30 14:48:49 --> URI Class Initialized
+INFO - 2026-03-30 14:48:49 --> Output Class Initialized
+INFO - 2026-03-30 14:48:49 --> Router Class Initialized
+INFO - 2026-03-30 14:48:49 --> Security Class Initialized
+INFO - 2026-03-30 14:48:49 --> Output Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:49 --> Input Class Initialized
+INFO - 2026-03-30 14:48:49 --> Security Class Initialized
+INFO - 2026-03-30 14:48:49 --> Language Class Initialized
+DEBUG - 2026-03-30 14:48:49 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:48:49 --> Input Class Initialized
+INFO - 2026-03-30 14:48:49 --> Language Class Initialized
+INFO - 2026-03-30 14:48:49 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:49 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:49 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:49 --> Loader Class Initialized
+INFO - 2026-03-30 14:48:49 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:48:49 --> Controller Class Initialized
+INFO - 2026-03-30 14:48:49 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:49 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:48:49 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:48:49 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:48:49 --> Final output sent to browser
+DEBUG - 2026-03-30 14:48:49 --> Total execution time: 0.0395
+INFO - 2026-03-30 14:48:49 --> Final output sent to browser
+DEBUG - 2026-03-30 14:48:49 --> Total execution time: 0.0402
+INFO - 2026-03-30 14:50:52 --> Config Class Initialized
+INFO - 2026-03-30 14:50:52 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:50:52 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:50:52 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:52 --> URI Class Initialized
+DEBUG - 2026-03-30 14:50:52 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:50:52 --> Router Class Initialized
+INFO - 2026-03-30 14:50:52 --> Output Class Initialized
+INFO - 2026-03-30 14:50:52 --> Security Class Initialized
+DEBUG - 2026-03-30 14:50:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:50:52 --> Input Class Initialized
+INFO - 2026-03-30 14:50:52 --> Language Class Initialized
+INFO - 2026-03-30 14:50:52 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:52 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:52 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:52 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:52 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:52 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:50:52 --> Final output sent to browser
+DEBUG - 2026-03-30 14:50:52 --> Total execution time: 0.0442
+INFO - 2026-03-30 14:50:52 --> Config Class Initialized
+INFO - 2026-03-30 14:50:52 --> Hooks Class Initialized
+INFO - 2026-03-30 14:50:52 --> Config Class Initialized
+INFO - 2026-03-30 14:50:52 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:50:52 --> UTF-8 Support Enabled
+DEBUG - 2026-03-30 14:50:52 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:50:52 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:52 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:52 --> URI Class Initialized
+INFO - 2026-03-30 14:50:52 --> URI Class Initialized
+INFO - 2026-03-30 14:50:52 --> Router Class Initialized
+INFO - 2026-03-30 14:50:52 --> Router Class Initialized
+INFO - 2026-03-30 14:50:52 --> Output Class Initialized
+INFO - 2026-03-30 14:50:52 --> Output Class Initialized
+INFO - 2026-03-30 14:50:52 --> Security Class Initialized
+INFO - 2026-03-30 14:50:52 --> Security Class Initialized
+DEBUG - 2026-03-30 14:50:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2026-03-30 14:50:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:50:52 --> Input Class Initialized
+INFO - 2026-03-30 14:50:52 --> Input Class Initialized
+INFO - 2026-03-30 14:50:52 --> Language Class Initialized
+INFO - 2026-03-30 14:50:52 --> Language Class Initialized
+INFO - 2026-03-30 14:50:52 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:52 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:52 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:52 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:52 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:52 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:52 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:52 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:52 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:52 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:52 --> Final output sent to browser
+DEBUG - 2026-03-30 14:50:52 --> Total execution time: 0.0434
+INFO - 2026-03-30 14:50:52 --> Final output sent to browser
+DEBUG - 2026-03-30 14:50:52 --> Total execution time: 0.0458
+INFO - 2026-03-30 14:50:57 --> Config Class Initialized
+INFO - 2026-03-30 14:50:57 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:50:57 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:57 --> URI Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:50:57 --> Router Class Initialized
+INFO - 2026-03-30 14:50:57 --> Output Class Initialized
+INFO - 2026-03-30 14:50:57 --> Security Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:50:57 --> Input Class Initialized
+INFO - 2026-03-30 14:50:57 --> Language Class Initialized
+INFO - 2026-03-30 14:50:57 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:57 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:57 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:57 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:57 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:57 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:50:57 --> Final output sent to browser
+DEBUG - 2026-03-30 14:50:57 --> Total execution time: 0.0386
+INFO - 2026-03-30 14:50:57 --> Config Class Initialized
+INFO - 2026-03-30 14:50:57 --> Hooks Class Initialized
+INFO - 2026-03-30 14:50:57 --> Config Class Initialized
+INFO - 2026-03-30 14:50:57 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> UTF-8 Support Enabled
+DEBUG - 2026-03-30 14:50:57 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:50:57 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:57 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:50:57 --> URI Class Initialized
+INFO - 2026-03-30 14:50:57 --> URI Class Initialized
+INFO - 2026-03-30 14:50:57 --> Router Class Initialized
+INFO - 2026-03-30 14:50:57 --> Router Class Initialized
+INFO - 2026-03-30 14:50:57 --> Output Class Initialized
+INFO - 2026-03-30 14:50:57 --> Output Class Initialized
+INFO - 2026-03-30 14:50:57 --> Security Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:50:57 --> Security Class Initialized
+INFO - 2026-03-30 14:50:57 --> Input Class Initialized
+INFO - 2026-03-30 14:50:57 --> Language Class Initialized
+DEBUG - 2026-03-30 14:50:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:50:57 --> Input Class Initialized
+INFO - 2026-03-30 14:50:57 --> Language Class Initialized
+INFO - 2026-03-30 14:50:57 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:57 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:57 --> Loader Class Initialized
+INFO - 2026-03-30 14:50:57 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:57 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:50:57 --> Controller Class Initialized
+INFO - 2026-03-30 14:50:57 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:57 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:50:57 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:57 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:50:57 --> Final output sent to browser
+INFO - 2026-03-30 14:50:57 --> Final output sent to browser
+DEBUG - 2026-03-30 14:50:57 --> Total execution time: 0.0446
+DEBUG - 2026-03-30 14:50:57 --> Total execution time: 0.0443
+INFO - 2026-03-30 14:54:19 --> Config Class Initialized
+INFO - 2026-03-30 14:54:19 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:54:19 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:54:19 --> URI Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:54:19 --> Router Class Initialized
+INFO - 2026-03-30 14:54:19 --> Output Class Initialized
+INFO - 2026-03-30 14:54:19 --> Security Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:54:19 --> Input Class Initialized
+INFO - 2026-03-30 14:54:19 --> Language Class Initialized
+INFO - 2026-03-30 14:54:19 --> Loader Class Initialized
+INFO - 2026-03-30 14:54:19 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:54:19 --> Controller Class Initialized
+INFO - 2026-03-30 14:54:19 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:54:19 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:54:19 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:54:19 --> Final output sent to browser
+DEBUG - 2026-03-30 14:54:19 --> Total execution time: 0.0522
+INFO - 2026-03-30 14:54:19 --> Config Class Initialized
+INFO - 2026-03-30 14:54:19 --> Hooks Class Initialized
+INFO - 2026-03-30 14:54:19 --> Config Class Initialized
+INFO - 2026-03-30 14:54:19 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> UTF-8 Support Enabled
+DEBUG - 2026-03-30 14:54:19 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:54:19 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:54:19 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:54:19 --> URI Class Initialized
+INFO - 2026-03-30 14:54:19 --> URI Class Initialized
+INFO - 2026-03-30 14:54:19 --> Router Class Initialized
+INFO - 2026-03-30 14:54:19 --> Router Class Initialized
+INFO - 2026-03-30 14:54:19 --> Output Class Initialized
+INFO - 2026-03-30 14:54:19 --> Output Class Initialized
+INFO - 2026-03-30 14:54:19 --> Security Class Initialized
+INFO - 2026-03-30 14:54:19 --> Security Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:54:19 --> Input Class Initialized
+DEBUG - 2026-03-30 14:54:19 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:54:19 --> Input Class Initialized
+INFO - 2026-03-30 14:54:19 --> Language Class Initialized
+INFO - 2026-03-30 14:54:19 --> Language Class Initialized
+INFO - 2026-03-30 14:54:19 --> Loader Class Initialized
+INFO - 2026-03-30 14:54:19 --> Loader Class Initialized
+INFO - 2026-03-30 14:54:19 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:54:19 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:54:19 --> Controller Class Initialized
+INFO - 2026-03-30 14:54:19 --> Controller Class Initialized
+INFO - 2026-03-30 14:54:19 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:54:19 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:54:19 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:54:19 --> Final output sent to browser
+DEBUG - 2026-03-30 14:54:19 --> Total execution time: 0.0417
+INFO - 2026-03-30 14:54:19 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:54:19 --> Final output sent to browser
+DEBUG - 2026-03-30 14:54:19 --> Total execution time: 0.0644
+INFO - 2026-03-30 14:55:33 --> Config Class Initialized
+INFO - 2026-03-30 14:55:33 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:55:33 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:55:33 --> URI Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> No URI present. Default controller set.
+INFO - 2026-03-30 14:55:33 --> Router Class Initialized
+INFO - 2026-03-30 14:55:33 --> Output Class Initialized
+INFO - 2026-03-30 14:55:33 --> Security Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:55:33 --> Input Class Initialized
+INFO - 2026-03-30 14:55:33 --> Language Class Initialized
+INFO - 2026-03-30 14:55:33 --> Loader Class Initialized
+INFO - 2026-03-30 14:55:33 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:55:33 --> Controller Class Initialized
+INFO - 2026-03-30 14:55:33 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:55:33 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:55:33 --> File loaded: C:\xampp\htdocs\php\cuoi ki\application\views\main.php
+INFO - 2026-03-30 14:55:33 --> Final output sent to browser
+DEBUG - 2026-03-30 14:55:33 --> Total execution time: 0.0522
+INFO - 2026-03-30 14:55:33 --> Config Class Initialized
+INFO - 2026-03-30 14:55:33 --> Config Class Initialized
+INFO - 2026-03-30 14:55:33 --> Hooks Class Initialized
+INFO - 2026-03-30 14:55:33 --> Hooks Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:55:33 --> Utf8 Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> UTF-8 Support Enabled
+INFO - 2026-03-30 14:55:33 --> Utf8 Class Initialized
+INFO - 2026-03-30 14:55:33 --> URI Class Initialized
+INFO - 2026-03-30 14:55:33 --> URI Class Initialized
+INFO - 2026-03-30 14:55:33 --> Router Class Initialized
+INFO - 2026-03-30 14:55:33 --> Output Class Initialized
+INFO - 2026-03-30 14:55:33 --> Router Class Initialized
+INFO - 2026-03-30 14:55:33 --> Security Class Initialized
+INFO - 2026-03-30 14:55:33 --> Output Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:55:33 --> Input Class Initialized
+INFO - 2026-03-30 14:55:33 --> Security Class Initialized
+INFO - 2026-03-30 14:55:33 --> Language Class Initialized
+DEBUG - 2026-03-30 14:55:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2026-03-30 14:55:33 --> Input Class Initialized
+INFO - 2026-03-30 14:55:33 --> Loader Class Initialized
+INFO - 2026-03-30 14:55:33 --> Language Class Initialized
+INFO - 2026-03-30 14:55:33 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:55:33 --> Controller Class Initialized
+INFO - 2026-03-30 14:55:33 --> Loader Class Initialized
+INFO - 2026-03-30 14:55:33 --> Helper loaded: url_helper
+INFO - 2026-03-30 14:55:33 --> Controller Class Initialized
+INFO - 2026-03-30 14:55:33 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:55:33 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:55:33 --> Database Driver Class Initialized
+INFO - 2026-03-30 14:55:33 --> Final output sent to browser
+DEBUG - 2026-03-30 14:55:33 --> Total execution time: 0.0391
+INFO - 2026-03-30 14:55:33 --> Model "Mcu_model" initialized
+INFO - 2026-03-30 14:55:33 --> Final output sent to browser
+DEBUG - 2026-03-30 14:55:33 --> Total execution time: 0.0585

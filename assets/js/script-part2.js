@@ -49,7 +49,9 @@
             renderMoviesGrid(movies);
             renderCharactersGrid(chars);
 
-            initInfinityTracker();
+            setTimeout(() => {
+                initInfinityTracker();
+            }, 100);
 
             // Build MOVIE_DB (slug → object) cho modal system
             movies.forEach(m => {
@@ -427,7 +429,7 @@
     ═══════════════════════════════════════════════════ */
     function initInfinityTracker() {
         const gemTags = document.querySelectorAll('.tl-tag--gem');
-        if (gemTags.length < 2) return; // not enough for the easter egg
+        if (gemTags.length < 1) return; // not enough for the easter egg
 
         // Create tracker element
         const tracker = document.createElement('div');
