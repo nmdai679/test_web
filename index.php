@@ -90,6 +90,10 @@ switch (ENVIRONMENT)
 		exit(1); // EXIT_ERROR
 }
 
+if (isset($_SERVER['REQUEST_URI'])) {
+    $_SERVER['REQUEST_URI'] = rawurldecode($_SERVER['REQUEST_URI']);
+}
+
 /*
  *---------------------------------------------------------------
  * SYSTEM DIRECTORY NAME

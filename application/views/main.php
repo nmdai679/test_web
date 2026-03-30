@@ -24,8 +24,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:ital,wght@0,300;0,400;0,600;0,700;1,300&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="<?= base_url('style.css') ?>" />
-    <link rel="stylesheet" href="<?= base_url('style-part2.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>" />
+    <link rel="stylesheet" href="<?= base_url('assets/css/style-part2.css') ?>" />
 </head>
 
 <body>
@@ -489,8 +489,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         window.MCU_BASE_URL = '<?= base_url() ?>';
         window.MCU_API      = '<?= site_url('api') ?>';
     </script>
-    <script src="<?= base_url('script.js') ?>"></script>
-    <script src="<?= base_url('script-part2.js') ?>"></script>
+    <script src="<?= base_url('assets/js/script.js') ?>"></script>
+    <script src="<?= base_url('assets/js/script-part2.js') ?>"></script>
 
 </body>
 </html>
