@@ -65,6 +65,7 @@
                     tagline:    m.tagline,
                     desc:       m.description,
                     bgColor:    m.bg_color,
+                    posterUrl:  m.poster_url,
                     connections: [],   // có thể mở rộng sau
                     watchUrl:   'https://disneyplus.com',
                     trailerUrl: 'https://youtube.com',
@@ -129,6 +130,7 @@
                     <div class="movie-card-poster">
                         <div class="poster-placeholder poster-placeholder--card"
                              style="--ph-color: ${m.bg_color}${m.slug === 'avengers-endgame' ? '; border:1px solid rgba(226,54,54,0.3)' : ''};"></div>
+                        ${m.poster_url ? `<img src="${window.MCU_BASE_URL}${m.poster_url}" alt="${m.title}" class="movie-card-poster-img" loading="lazy">` : ''}
                         <div class="movie-card-overlay"></div>
                         <div class="movie-card-phase-badge">Phase ${m.phase_num}</div>
                         ${featuredBadge}
@@ -252,7 +254,10 @@
 
         // Poster placeholder
         const posterEl = document.getElementById('modal-poster');
-        posterEl.innerHTML = `<div class="poster-placeholder" data-title="${data.title}" style="--ph-color: ${data.bgColor}; width:100%; height:100%;"></div>`;
+        posterEl.innerHTML = `
+            <div class="poster-placeholder" data-title="${data.title}" style="--ph-color: ${data.bgColor}; width:100%; height:100%;"></div>
+            ${data.posterUrl ? `<img src="${window.MCU_BASE_URL}${data.posterUrl}" alt="${data.title}" class="modal-poster-img">` : ''}
+        `;
 
         // Score ring
         const circumference = 150.8; // 2 * π * 24

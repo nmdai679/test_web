@@ -152,8 +152,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <div class="hero-title-sub-row">
                     <h1 class="hero-title hero-title--outline">CINEMATIC</h1>
                     <div class="hero-badge">
-                        <span class="hero-badge-num" id="hero-badge-num">20</span>
-                        <span class="hero-badge-label">bộ phim</span>
+                        <span class="hero-badge-num" id="hero-badge-num"><?= count($movies) ?></span>
+                        <span class="hero-badge-label">tác phẩm</span>
                     </div>
                     <h1 class="hero-title hero-title--outline">UNIVERSE</h1>
                 </div>
@@ -173,11 +173,19 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 <a href="#movies" class="btn btn--ghost">Xem tất cả phim</a>
             </div>
             <div class="hero-stats">
-                <div class="hero-stat"><span class="hero-stat-num" data-count="20" id="stat-movies">0</span><span class="hero-stat-label">Bộ phim</span></div>
+<?php
+$count_movies = 0;
+$count_series = 0;
+foreach($movies as $m) {
+    if ($m['type'] === 'series') $count_series++;
+    else $count_movies++;
+}
+?>
+                <div class="hero-stat"><span class="hero-stat-num" data-count="<?= $count_movies ?>" id="stat-movies">0</span><span class="hero-stat-label">Bộ phim</span></div>
                 <div class="hero-stat-divider"></div>
-                <div class="hero-stat"><span class="hero-stat-num" data-count="3" id="stat-series">0</span><span class="hero-stat-label">Series TV</span></div>
+                <div class="hero-stat"><span class="hero-stat-num" data-count="<?= $count_series ?>" id="stat-series">0</span><span class="hero-stat-label">Series TV</span></div>
                 <div class="hero-stat-divider"></div>
-                <div class="hero-stat"><span class="hero-stat-num" data-count="6">0</span><span class="hero-stat-label">Phases</span></div>
+                <div class="hero-stat"><span class="hero-stat-num" data-count="<?= count($phases) ?>">0</span><span class="hero-stat-label">Phases</span></div>
                 <div class="hero-stat-divider"></div>
                 <div class="hero-stat"><span class="hero-stat-num" data-count="2008">0</span><span class="hero-stat-label">Từ năm</span></div>
             </div>
@@ -207,7 +215,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">The Beginning</h3>
                         <p class="phase-card-years">2008 – 2012</p>
                         <p class="phase-card-desc">Khởi đầu vũ trụ với Iron Man, Thor, Hulk và cuộc hội tụ Avengers đầu tiên.</p>
-                        <div class="phase-card-count"><span>6</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[0]) ? $phases[0]['film_count'] : '6' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot" style="--c:#E23636" title="Iron Man"></div>
@@ -226,7 +234,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">Expansion</h3>
                         <p class="phase-card-years">2013 – 2015</p>
                         <p class="phase-card-desc">Mở rộng vũ trụ với Guardians of the Galaxy và những mối đe dọa mới.</p>
-                        <div class="phase-card-count"><span>6</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[1]) ? $phases[1]['film_count'] : '6' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot" style="--c:#E67E22" title="Guardians"></div>
@@ -244,7 +252,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">The Infinity War</h3>
                         <p class="phase-card-years">2016 – 2019</p>
                         <p class="phase-card-desc">Thanos — cuộc chiến Infinity War và Endgame thay đổi vũ trụ mãi mãi.</p>
-                        <div class="phase-card-count"><span>11</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[2]) ? $phases[2]['film_count'] : '10' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot" style="--c:#6C3483" title="Thanos"></div>
@@ -263,7 +271,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">New World</h3>
                         <p class="phase-card-years">2021 – 2022</p>
                         <p class="phase-card-desc">Hậu Endgame — multiverse mở ra, những anh hùng mới trỗi dậy.</p>
-                        <div class="phase-card-count"><span>10</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[3]) ? $phases[3]['film_count'] : '7' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot" style="--c:#1E8449" title="WandaVision"></div>
@@ -281,7 +289,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">The Kang Dynasty</h3>
                         <p class="phase-card-years">2023 – 2024</p>
                         <p class="phase-card-desc">Kang the Conqueror và mối đe dọa xuyên thời gian.</p>
-                        <div class="phase-card-count"><span>8</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[4]) ? $phases[4]['film_count'] : '4' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot" style="--c:#7D3C98" title="Kang"></div>
@@ -298,7 +306,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                         <h3 class="phase-card-title">Secret Wars</h3>
                         <p class="phase-card-years">2025 – 2026</p>
                         <p class="phase-card-desc">Avengers: Secret Wars — cuộc hội tụ vĩ đại nhất lịch sử MCU.</p>
-                        <div class="phase-card-count"><span>?</span> tác phẩm</div>
+                        <div class="phase-card-count"><span><?= isset($phases[5]) ? $phases[5]['film_count'] : '6' ?></span> tác phẩm</div>
                     </div>
                     <div class="phase-card-heroes">
                         <div class="phase-hero-dot phase-hero-dot--unknown"></div>
